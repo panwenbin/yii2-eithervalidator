@@ -1,6 +1,6 @@
 {
-    "name": "petrabarus/yii2-eithervalidator",
-    "description": "Yii2 validator to force one of certain attributes to be filled",
+    "name": "panwenbin/yii2-eithervalidator",
+    "description": "Yii2 validator for either attributes is required",
     "license": "MIT",
     "authors": [
         {
@@ -8,14 +8,14 @@
             "email": "petra.barus@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=5.4.0",
         "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
-            "PetraBarus\\Yii2\\Validators\\": "src/"
+            "panwenbin\\yii2\\validators\\": "src/"
         }
     }
 }
